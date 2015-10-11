@@ -1,0 +1,66 @@
+  #flower {
+       position: relative;
+       width: 256px; 
+	    }
+    .petal {
+       background-color: #f33;
+       float: left;
+       margin: 1px 1px 0 0;
+       width: 125px;
+       height: 125px;      
+       -moz-border-radius: 200px;
+       -webkit-border-radius: 200px;
+	   border-radius:20px;  }
+    #topleft {
+       -moz-border-radius-bottomright: 0;
+       -webkit-border-bottom-right-radius: 0;
+       border-bottom: 2px solid #c33;
+       border-right: 2px solid #c33;  }
+    #topright {
+       -moz-border-radius-bottomleft: 0;
+       -webkit-border-bottom-left-radius: 0;
+       border-bottom: 2px solid #c33;
+       border-left: 2px solid #c33;  }
+    #bottomleft {
+       -moz-border-radius-topright: 0;
+       -webkit-border-top-right-radius: 0;
+       border-top: 2px solid #c33;
+       border-right: 2px solid #c33;  }
+    #bottomright {
+       -moz-border-radius-topleft: 0;
+       -webkit-border-top-left-radius: 0;
+       border-top: 2px solid #c33;
+       border-left: 2px solid #c33;  }
+    #center {
+       position: absolute;
+       left: 112px;
+       top: 112px;
+       background-color: #ff3;
+       width: 30px;
+       height: 30px;
+       -moz-border-radius: 15px;
+       -webkit-border-radius: 15px;  }
+    #stem {
+       float: left;
+       width: 12px;
+       height: 200px;
+       margin: 0 1px;
+       background-color: #093;  }
+    .leaf {
+       float: left; 
+       margin-top: 80px; 
+       background-color: #093;
+       width: 60px;
+       height: 30px;  }
+    #leftleaf {
+       clear: left;
+       margin-left: 10px;
+       -moz-border-radius-bottomleft: 30px;
+       -webkit-border-bottom-left-radius: 30px;
+       -moz-border-radius-topright: 30px;
+       -webkit-border-top-right-radius: 30px;  }
+    #rightleaf {
+       -moz-border-radius-bottomright: 30px;
+       -webkit-border-bottom-right-radius: 30px;
+       -moz-border-radius-topleft: 30px;
+       -webkit-border-top-left-radius: 30px;  }
